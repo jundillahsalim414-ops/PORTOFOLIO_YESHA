@@ -81,7 +81,7 @@ export default function Footer() {
           </div>
 
           <p className="text-xs text-[#9BB5CC] tracking-[0.12em] uppercase">
-            © 2026 yeshaiindr_ · KARYA YANG DIBANGUN DENGAN PASSION
+            © 2026 YESHA INDRIANI KURNIAWATI · KARYA YANG DIBANGUN DENGAN PASSION
           </p>
         </div>
       </div>

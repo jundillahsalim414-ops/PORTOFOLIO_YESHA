@@ -11,44 +11,45 @@ interface GalleryPhoto {
 }
 
 const photos: GalleryPhoto[] = [
-{
-  id: 'g1',
-  src: "https://img.rocket.new/generatedImages/rocket_gen_img_1f516a029-1773925537596.png",
-  alt: 'Sophia in an elegant blue evening gown at a fashion gala, soft candlelight, sophisticated and glamorous atmosphere',
-  caption: 'Fashion Gala 2024',
-  span: 'row-span-2'
-},
-{
-  id: 'g2',
-  src: "https://img.rocket.new/generatedImages/rocket_gen_img_16c1968a6-1778941788772.png",
-  alt: 'Editorial fashion shoot outdoors, model in structured blazer, natural daylight, clean background with blue sky',
-  caption: 'Spring Editorial'
-},
-{
-  id: 'g3',
-  src: "https://img.rocket.new/generatedImages/rocket_gen_img_1107d0123-1780292799264.png",
-  alt: 'Fashion professional in white studio setting, confident pose, minimalist aesthetic with soft blue lighting',
-  caption: 'Studio Session'
-},
-{
-  id: 'g4',
-  src: 'https://img.rocket.new/generatedImages/rocket_gen_img_1ddf3a5c9-1774971263581.png',
-  alt: 'Woman browsing luxury fashion boutique, bright airy store interior, elegant clothing racks with blue and white pieces',
-  caption: 'Boutique Visit',
-  span: 'col-span-2'
-},
-{
-  id: 'g5',
-  src: 'https://img.rocket.new/generatedImages/rocket_gen_img_1f58df22f-1772474175127.png',
-  alt: 'Luxury brand campaign imagery, woman in tailored cream suit outdoors, golden afternoon light, aspirational lifestyle',
-  caption: 'Campaign Shoot'
-},
-{
-  id: 'g6',
-  src: 'https://img.rocket.new/generatedImages/rocket_gen_img_1b62066cc-1765697988708.png',
-  alt: 'Backstage at a runway show, elegant preparation, models in beautiful gowns, bright dressing room atmosphere',
-  caption: 'Backstage Moments'
-}];
+// {
+//   id: 'g1',
+//   src: "https://img.rocket.new/generatedImages/rocket_gen_img_1f516a029-1773925537596.png",
+//   alt: 'Sophia in an elegant blue evening gown at a fashion gala, soft candlelight, sophisticated and glamorous atmosphere',
+//   caption: 'Fashion Gala 2024',
+//   span: 'row-span-2'
+// },
+// {
+//   id: 'g2',
+//   src: "https://img.rocket.new/generatedImages/rocket_gen_img_16c1968a6-1778941788772.png",
+//   alt: 'Editorial fashion shoot outdoors, model in structured blazer, natural daylight, clean background with blue sky',
+//   caption: 'Spring Editorial'
+// },
+// {
+//   id: 'g3',
+//   src: "https://img.rocket.new/generatedImages/rocket_gen_img_1107d0123-1780292799264.png",
+//   alt: 'Fashion professional in white studio setting, confident pose, minimalist aesthetic with soft blue lighting',
+//   caption: 'Studio Session'
+// },
+// {
+//   id: 'g4',
+//   src: 'https://img.rocket.new/generatedImages/rocket_gen_img_1ddf3a5c9-1774971263581.png',
+//   alt: 'Woman browsing luxury fashion boutique, bright airy store interior, elegant clothing racks with blue and white pieces',
+//   caption: 'Boutique Visit',
+//   span: 'col-span-2'
+// },
+// {
+//   id: 'g5',
+//   src: 'https://img.rocket.new/generatedImages/rocket_gen_img_1f58df22f-1772474175127.png',
+//   alt: 'Luxury brand campaign imagery, woman in tailored cream suit outdoors, golden afternoon light, aspirational lifestyle',
+//   caption: 'Campaign Shoot'
+// },
+// {
+//   id: 'g6',
+//   src: 'https://img.rocket.new/generatedImages/rocket_gen_img_1b62066cc-1765697988708.png',
+//   alt: 'Backstage at a runway show, elegant preparation, models in beautiful gowns, bright dressing room atmosphere',
+//   caption: 'Backstage Moments'
+// }
+];
 
 
 export default function PersonalGallery() {
@@ -122,18 +123,18 @@ export default function PersonalGallery() {
 
   return (
     <>
-      <section id="gallery" ref={sectionRef} className="py-20 lg:py-32 overflow-hidden relative" style={{ background: 'linear-gradient(180deg, #F0F6FF 0%, #FFFFFF 100%)' }}>
+      {/* <section id="gallery" ref={sectionRef} className="py-20 lg:py-32 overflow-hidden relative" style={{ background: 'linear-gradient(180deg, #F0F6FF 0%, #FFFFFF 100%)' }}> */}
         {/* Decorative elements */}
-        <div className="absolute top-0 left-0 right-0 h-px fashion-line opacity-50" />
+        {/* <div className="absolute top-0 left-0 right-0 h-px fashion-line opacity-50" /> */}
 
-        <div className="mx-auto max-w-7xl px-6">
+        {/* <div className="mx-auto max-w-7xl px-6"> */}
           {/* Header */}
-          <div className="gallery-reveal mb-14">
-            <div className="flex items-center gap-4 mb-5">
+          {/* <div className="gallery-reveal mb-14"> */}
+            {/* <div className="flex items-center gap-4 mb-5">
               <div className="h-px w-12 bg-[#C9A84C]" />
               <span className="text-xs font-semibold uppercase tracking-[0.35em] text-[#C9A84C]">Personal Gallery</span>
             </div>
-            <div className="flex flex-col sm:flex-row sm:items-end justify-between gap-6">
+            {/* <div className="flex flex-col sm:flex-row sm:items-end justify-between gap-6">
               <h2 className="section-headline font-serif font-bold text-[#0D1B2E]">
                 Moments &<br />
                 <span className="italic font-light text-[#1A3A6B]">Memories.</span>
@@ -141,8 +142,8 @@ export default function PersonalGallery() {
               <p className="text-sm text-[#4A6080] max-w-xs leading-relaxed">
                 A glimpse into my world — behind the scenes, on set, and in the moments that inspire my work.
               </p>
-            </div>
-          </div>
+            </div> */}
+          {/* </div>  */}
 
           {/* Grid */}
           <div className="grid grid-cols-2 md:grid-cols-3 gap-3 md:gap-4 auto-rows-[200px] md:auto-rows-[220px]">
@@ -165,27 +166,27 @@ export default function PersonalGallery() {
               
 
                 {/* Overlay */}
-                <div className="absolute inset-0 bg-gradient-to-t from-[#0D1B2E]/70 via-[#1A3A6B]/10 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500" />
+                {/* <div className="absolute inset-0 bg-gradient-to-t from-[#0D1B2E]/70 via-[#1A3A6B]/10 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500" /> */}
 
                 {/* Gold shimmer border on hover */}
-                <div className="absolute inset-0 rounded-2xl border-2 border-[#C9A84C]/0 group-hover:border-[#C9A84C]/40 transition-all duration-500 pointer-events-none" />
+                {/* <div className="absolute inset-0 rounded-2xl border-2 border-[#C9A84C]/0 group-hover:border-[#C9A84C]/40 transition-all duration-500 pointer-events-none" /> */}
 
                 {/* Caption */}
-                <div className="absolute bottom-0 left-0 right-0 p-4 translate-y-3 group-hover:translate-y-0 opacity-0 group-hover:opacity-100 transition-all duration-500">
+                {/* <div className="absolute bottom-0 left-0 right-0 p-4 translate-y-3 group-hover:translate-y-0 opacity-0 group-hover:opacity-100 transition-all duration-500">
                   <p className="text-white text-sm font-semibold">{photo.caption}</p>
-                </div>
+                </div> */}
 
                 {/* Expand icon */}
-                <div className="absolute top-3 right-3 w-8 h-8 rounded-full bg-white/20 backdrop-blur-sm flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-500">
+                {/* <div className="absolute top-3 right-3 w-8 h-8 rounded-full bg-white/20 backdrop-blur-sm flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-500">
                   <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="white" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
                     <polyline points="15 3 21 3 21 9" /><polyline points="9 21 3 21 3 15" /><line x1="21" y1="3" x2="14" y2="10" /><line x1="3" y1="21" x2="10" y2="14" />
                   </svg>
-                </div>
+                </div> */}
               </div>
             )}
           </div>
-        </div>
-      </section>
+        {/* </div> */}
+      {/* </section> */}
 
       {/* Lightbox */}
       {lightboxIndex !== null &&

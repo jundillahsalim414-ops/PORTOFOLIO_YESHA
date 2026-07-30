@@ -11,24 +11,24 @@ interface Skill {
 
 const skills: Skill[] = [
   {
-    name: 'Styling Fashion',
+    name: 'Customer Service',
     level: 95,
     icon: '✦',
-    description: 'Menciptakan tampilan yang bercerita dan membangun kepercayaan diri.',
+    description: 'Memberikan pelayanan yang ramah, responsif, dan berorientasi pada kebutuhan customer.',
     color: '#C9A84C',
   },
   {
-    name: 'Kreativitas',
+    name: 'Fashion Sales',
     level: 92,
     icon: '◆',
-    description: 'Mengubah ide menjadi konsep visual yang menarik dan berkesan.',
+    description: 'Mendukung proses penjualan melalui product knowledge dan komunikasi yang persuasif.',
     color: '#1A3A6B',
   },
   {
-    name: 'Komunikasi',
+    name: 'Product Knowledge',
     level: 88,
     icon: '●',
-    description: 'Menyampaikan ide dan visi dengan jelas kepada berbagai pihak.',
+    description: 'Memahami bahan, warna, ukuran, model, dan karakteristik produk fashion.',
     color: '#4A6080',
   },
   {
@@ -39,17 +39,24 @@ const skills: Skill[] = [
     color: '#C9A84C',
   },
   {
-    name: 'Keterampilan Digital',
+    name: 'Fashion Styling',
     level: 82,
     icon: '◇',
-    description: 'LMemanfaatkan teknologi untuk mendukung pengembangan dan pemasaran fashion modern.',
+    description: 'Membantu customer menemukan pilihan produk yang sesuai dengan style dan kebutuhan mereka.',
     color: '#1A3A6B',
   },
   {
-    name: 'Public Speaking',
+    name: 'Communication',
     level: 85,
     icon: '○',
-    description: 'Menyampaikan ide dan presentasi dengan percaya diri dan persuasif.',
+    description: 'Berkomunikasi dengan jelas dan profesional dengan customer maupun tim.',
+    color: '#4A6080',
+  },
+  {
+    name: 'Customer Handling',
+    level: 90,
+    icon: '○',
+    description: 'Menangani pertanyaan, kebutuhan, dan keluhan customer secara solutif.',
     color: '#4A6080',
   },
 ];
@@ -157,7 +164,7 @@ export default function SkillsSection() {
               <span className="italic font-light text-[#1A3A6B]">Capabilities.</span>
             </h2>
             <p className="text-sm text-[#4A6080] max-w-xs leading-relaxed">
-              A blend of creative talent and professional expertise, refined through years of passion and practice.
+              A combination of sales expertise, product knowledge, and customer-focused service developed through experience in fashion retail.
             </p>
           </div>
         </div>
@@ -175,10 +182,12 @@ export default function SkillsSection() {
             {/* Highlight cards */}
             <div className="grid grid-cols-2 gap-4">
               {[
-                { icon: '✦', title: 'Analisis Tren Fashion', desc: 'Mengidentifikasi dan memprediksi tren fashion untuk menghadirkan produk yang relevan dengan kebutuhan pasar.' },
-                { icon: '◆', title: 'Brand Storytelling', desc: 'Membangun cerita dan identitas brand yang kuat untuk menciptakan kedekatan dengan pelanggan.' },
-                { icon: '●', title: 'Visual Direction', desc: 'Menciptakan konsep visual yang konsisten dan menarik di berbagai media dan platform.' },
-                { icon: '▲', title: 'Client Relations', desc: 'Membangun hubungan jangka panjang dengan klien dan mitra berdasarkan kepercayaan dan hasil kerja.' },
+                { icon: '✦', title: 'Product Recommendation', desc: 'Memberikan rekomendasi produk berdasarkan kebutuhan, preferensi, dan karakter customer.' },
+                { icon: '◆', title: 'Upselling & Cross-Selling', desc: 'Mengenali peluang untuk menawarkan produk tambahan yang relevan dengan kebutuhan customer.' },
+                { icon: '●', title: 'Fashion Trend Awareness', desc: 'Mengikuti perkembangan tren fashion untuk meningkatkan product knowledge.' },
+                { icon: '▲', title: 'Cashier Operations', desc: 'Menangani transaksi pembayaran dan proses kasir secara teliti dan akurat.' },
+                { icon: '✦', title: 'Teamwork', desc: 'Berkolaborasi dengan tim untuk mendukung kelancaran operasional dan pencapaian target.' },
+                { icon: '●', title: 'Time Management', desc: 'Mengatur prioritas pekerjaan dan menyelesaikan tugas sesuai target.' },
               ].map((item) => (
                 <div
                   key={item.title}
@@ -195,7 +204,7 @@ export default function SkillsSection() {
             <div className="bg-white rounded-2xl p-6 border border-[#C0D3F0] shadow-sm">
               <h4 className="text-xs font-semibold uppercase tracking-[0.25em] text-[#C9A84C] mb-5">Tools & Platforms</h4>
               <div className="flex flex-wrap gap-2.5">
-                {['Instagram', 'TikTok', 'Shopify',].map((tool) => (
+                {['Instagram', 'TikTok',].map((tool) => (
                   <span
                     key={tool}
                     className="px-3 py-1.5 rounded-full bg-[#E8F0FE] text-xs font-medium text-[#1A3A6B] border border-[#C0D3F0] hover:border-[#C9A84C] hover:bg-[#C9A84C]/10 transition-colors duration-200"

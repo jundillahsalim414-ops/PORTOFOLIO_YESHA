@@ -102,8 +102,8 @@ export default function HeroSection() {
 
             {/* Floating style card */}
             <div className="absolute -left-4 top-1/3 bg-white/95 backdrop-blur-md border border-[#C9A84C]/30 rounded-2xl px-4 py-3.5 shadow-xl hidden lg:block">
-              <p className="text-[10px] font-semibold uppercase tracking-[0.2em] text-[#4A6080] mb-1">Style Philosophy</p>
-              <p className="font-serif text-sm font-semibold text-[#0D1B2E]">Elegance is Attitude</p>
+              <p className="text-[10px] font-semibold uppercase tracking-[0.2em] text-[#4A6080] mb-1">SALES PHILOSOPHY</p>
+              <p className="font-serif text-sm font-semibold text-[#0D1B2E]">Style is Personal.</p>
             </div>
           </div>
 
@@ -137,9 +137,18 @@ export default function HeroSection() {
                 </p>
               </div>
 
-              <p className="mt-5 text-base text-[#4A6080] leading-relaxed max-w-lg font-light">
-                Memadukan kreativitas dan passion di dunia fashion untuk menciptakan karya yang menginspirasi, membangun koneksi, dan meninggalkan kesan yang mendalam.
-              </p>
+             <div>
+  <h3 className="text-lg font-semibold text-[#1B2A41]">
+    Fashion Sales & Retail Specialist
+  </h3>
+
+  <p className="mt-3 text-base text-[#4A6080] leading-relaxed max-w-lg font-light">
+    Berpengalaman di bidang fashion retail dengan fokus pada customer service,
+    product knowledge, sales, dan fashion styling. Terbiasa memahami kebutuhan
+    customer, memberikan rekomendasi produk, serta menciptakan pengalaman
+    berbelanja yang nyaman dan personal.
+  </p>
+</div>
             </div>
 
             {/* CTA Buttons */}
@@ -178,9 +187,10 @@ export default function HeroSection() {
             {/* Stats strip */}
             <div className="flex items-center gap-8 pt-5 border-t border-[#C0D3F0]">
               {[
-              { label: 'Years in Fashion', value: '5+' },
-              { label: 'Projects Completed', value: '10+' },
-              { label: 'Brand Collaborations', value: '5+' }]?.
+              { label: 'YEARS IN FASHION RETAIL', value: '4+' }
+              // { label: 'Projects Completed', value: '10+' }
+              // { label: 'Brand Collaborations', value: '5+' }
+            ]?.
               map((s) =>
               <div key={s?.label} className="text-center">
                   <p className="font-serif text-xl font-bold text-[#1A3A6B]">{s?.value}</p>

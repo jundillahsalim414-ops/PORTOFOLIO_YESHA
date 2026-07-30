@@ -12,15 +12,22 @@ interface Role {
 
 const roles: Role[] = [
   {
-    company: 'hijaberies',
-    title: 'Senior Fashion Merchandiser / Fashion Professional',
-    dates: 'Jan 2022 – Present',
+    company: 'HIJABERIES',
+    title: 'Fashion Sales',
+    dates: '2022 – 2026',
     location: 'Bandung & Indonesia',
     color: '#C9A84C',
     bullets: [
-      'Berperan dalam pengembangan produk dan strategi merchandising untuk meningkatkan daya saing brand di pasar fashion muslim Indonesia.',
-      'Berkontribusi dalam pengembangan identitas brand, perencanaan koleksi, serta peningkatan penjualan melalui strategi produk dan analisis tren fashion.',
-      'Mengelola koordinasi lintas divisi untuk memastikan proses pengembangan produk berjalan efektif dan sesuai target perusahaan.',
+      'Melayani customer secara langsung maupun melalui platform komunikasi dengan memberikan pelayanan yang ramah, responsif, dan profesional.',
+      'Memahami kebutuhan dan preferensi customer untuk memberikan rekomendasi produk yang sesuai.',
+      'Menjelaskan detail produk seperti bahan, warna, ukuran, model, dan karakteristik produk.',
+      'Membantu customer memilih produk berdasarkan kebutuhan, style, dan occasion.',
+      'Menangani pertanyaan, permintaan, dan keluhan customer secara profesional.',
+      'Mengikuti perkembangan tren fashion untuk meningkatkan product knowledge dan memberikan rekomendasi yang relevan.',
+      'Mendukung pencapaian target penjualan melalui pelayanan customer dan product knowledge.',
+      'Berkoordinasi dengan tim untuk memastikan ketersediaan produk dan kelancaran proses penjualan.',
+      'Menangani proses transaksi customer, pembayaran, dan pengecekan transaksi secara teliti.',
+      'Memastikan proses pembayaran dan pelayanan kasir berjalan dengan cepat dan akurat.',
     ],
   },
 ];
@@ -87,7 +94,7 @@ export default function ProfessionalJourneySection() {
             <span className="italic font-light text-[#1A3A6B]">Experience.</span>
           </h2>
           <p className="mt-4 text-base text-[#4A6080] max-w-lg leading-relaxed">
-            Perjalanan dalam dunia fashion, kreativitas, dan profesionalisme—setiap pengalaman membentuk diri saya seperti sekarang.
+            Pengalaman saya di bidang fashion retail membentuk kemampuan dalam sales, customer service, product knowledge, dan fashion styling.
           </p>
         </div>
 

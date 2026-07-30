@@ -94,8 +94,8 @@ export default function ContactSection() {
                     </svg>
                   ),
                   label: 'Email',
-                  value: 'Yeshaiindr_@gmail.com',
-                  href: 'mailto:Yeshaiindr_@gmail.com',
+                  value: 'yeshaindriani2004@gmail.com',
+                  href: 'mailto:yeshaindriani2004@gmail.com',
                 },
                 {
                   icon: (

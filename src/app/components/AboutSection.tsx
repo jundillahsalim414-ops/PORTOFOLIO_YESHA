@@ -4,8 +4,8 @@ import AppImage from '@/components/ui/AppImage';
 
 const timelineItems = [
 {
-  year: '2026',
-  title: 'Senior Fashion Merchandiser / Fashion Professional',
+  year: '2022 – 2026',
+  title: 'Fashion Sales & Retail',
   description: 'Telah berkarier selama 5 tahun di perusahaan yang sama, berkontribusi dalam pengembangan produk, strategi bisnis, dan pertumbuhan brand fashion di Indonesia.',
   icon: '✦'
 }];
@@ -71,7 +71,7 @@ export default function AboutSection() {
           </div>
           <h2 className="section-headline font-serif font-bold text-[#0D1B2E]">
             A Story Woven in<br />
-            <span className="italic font-light text-[#1A3A6B]">Style & Passion.</span>
+            <span className="italic font-light text-[#1A3A6B]">Style & Customer Experience.</span>
           </h2>
         </div>
 
@@ -98,7 +98,7 @@ export default function AboutSection() {
             <div className="about-reveal bg-white/80 backdrop-blur-sm rounded-2xl p-6 border border-[#C9A84C]/25 shadow-lg" data-delay="0.2">
               <div className="text-3xl text-[#C9A84C] font-serif leading-none mb-3">&ldquo;</div>
               <p className="font-serif text-base font-light text-[#0D1B2E] leading-relaxed italic">
-                Fashion is not just about clothes — it&apos;s about telling your story without saying a word.
+                Great fashion sales is not just about selling a product — it's about helping&apos; customers find a style that feels right for them..
               </p>
               <div className="mt-4 flex items-center gap-3">
                 <div className="h-px flex-1 bg-[#C9A84C]/30" />
@@ -112,19 +112,20 @@ export default function AboutSection() {
             {/* Bio */}
             <div className="about-reveal space-y-5" data-delay="0.15">
               <p className="text-base text-[#4A6080] leading-relaxed">
-               Hallo Perkenalkan Saya <strong> yeshaiindr_</strong> — saya seorang pecinta fashion, pemikir kreatif, dan pribadi yang percaya bahwa gaya memiliki kekuatan untuk mengekspresikan diri dan menginspirasi banyak orang. Dengan ketertarikan yang besar pada dunia fashion dan kreativitas, saya terus mengembangkan diri untuk menciptakan karya yang bermakna dan berkesan.
+               Hallo Perkenalkan Saya <strong> Yesha indriani kurniawati</strong> — saya seorang Fashion Sales dengan pengalaman di bidang fashion retail. Saya memiliki ketertarikan pada fashion, styling, dan bagaimana sebuah produk dapat membantu customer merasa lebih percaya diri dengan pilihan mereka.
               </p>
               <p className="text-base text-[#4A6080] leading-relaxed">
-                Perjalanan saya di dunia fashion dimulai dari rasa ingin tahu yang besar terhadap tren, gaya, dan seni dalam berpakaian. Pengalaman yang saya miliki telah membentuk saya menjadi pribadi yang detail, inovatif, dan selalu berusaha memberikan hasil terbaik dalam setiap kesempatan. Bagi saya, fashion bukan hanya tentang penampilan, tetapi juga tentang identitas, kepercayaan diri, dan kreativitas tanpa batas.
+                Selama bekerja di bidang fashion retail, saya terbiasa melayani customer, memahami kebutuhan dan preferensi mereka, memberikan rekomendasi produk, serta menjelaskan detail seperti bahan, warna, ukuran, model, dan karakteristik produk.
               </p>
               <p className="text-base text-[#4A6080] leading-relaxed">
-                Saya adalah seseorang yang penuh semangat, senang belajar hal baru, dan menikmati setiap proses dalam berkarya. Baik dalam bekerja secara individu maupun tim, saya selalu mengedepankan dedikasi, kreativitas, dan profesionalisme untuk menciptakan sesuatu yang indah dan bermakna.
+                Saya percaya bahwa pengalaman berbelanja bukan hanya tentang menjual produk, tetapi juga tentang membangun kepercayaan, memberikan pelayanan yang baik, dan membantu customer menemukan pilihan yang tepat.
+                Dengan pemahaman terhadap fashion trends, product knowledge, dan customer service, saya terus mengembangkan kemampuan untuk memberikan pengalaman berbelanja yang profesional, personal, dan menyenangkan.
               </p>
             </div>
 
             {/* Personality tags */}
             <div className="about-reveal flex flex-wrap gap-3" data-delay="0.25">
-              {['Creative Visionary', 'Fashion Lover', 'Detail-Oriented', 'Trend Forecaster', 'Brand Storyteller', 'Style Innovator'].map((tag) =>
+              {['CUSTOMER-FOCUSED', 'FASHION SALES', 'PRODUCT KNOWLEDGE', 'FASHION STYLING', 'COMMUNICATIVE', 'DETAIL-ORIENTED'].map((tag) =>
               <span
                 key={tag}
                 className="px-4 py-2 rounded-full border border-[#C0D3F0] bg-white/70 text-xs font-semibold uppercase tracking-[0.15em] text-[#4A6080] hover:border-[#C9A84C] hover:text-[#0D1B2E] transition-colors duration-200">
